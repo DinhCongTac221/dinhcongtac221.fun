@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "dinhcongtac221.fun",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://raw.githubusercontent.com/DinhCongTac221/dinhcongtac221.fun/main/public/og.png",
         width: 1920,
         height: 1080,
       },
