@@ -35,14 +35,14 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
+          I'm DinhCongTac221{" "}
           <Link
             target="_blank"
-            href="https://unkey.dev"
+            href="https://dinhcongtac221.fun"
             className="underline duration-500 hover:text-zinc-300"
           >
-            unkey.dev
-          </Link> to solve API authentication and authorization for developers.
+            
+          </Link> a blockchain enthusiast, I have been involved in crypto for 7 years. I am passionate about contributing to projects and running nodes..
         </h2>
       </div>
     </div>
