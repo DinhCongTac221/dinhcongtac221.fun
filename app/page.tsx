@@ -54,6 +54,15 @@ export default function Home() {
           > DinhCongTac221
             
           </Link> - a blockchain enthusiast, I have been involved in crypto for 7 years. I am passionate about contributing to projects and running nodes..
+<br />
+          <div className="flex justify-center items-center mt-4 space-x-4">
+            <Link href="https://discord.com/your-discord-link" target="_blank">
+              <img src="/images/discord.png" alt="Discord: Dinhcongtac221" className="w-8 h-8" />
+            </Link>
+            <Link href="https://twitter.com/your-twitter-link" target="_blank">
+              <img src="/images/twitter.png" alt="Twitter" className="w-8 h-8" />
+            </Link>
+          </div>
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
