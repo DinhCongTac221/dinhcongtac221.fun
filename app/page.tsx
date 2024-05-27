@@ -3,8 +3,18 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
- 
   { name: "Contact", href: "/contact" },
+];
+
+const blockchains = [
+  { name: "Polygon", stakeLink: "/polygon/stake", servicesLink: "/polygon/services", logo: "/images/polygon.png" },
+  { name: "Polkadot", stakeLink: "/polkadot/stake", servicesLink: "/polkadot/services", logo: "/images/polkadot.png" },
+  { name: "Kusama", stakeLink: "/kusama/stake", servicesLink: "/kusama/services", logo: "/images/kusama.png" },
+  { name: "Near", stakeLink: "/near/stake", servicesLink: "/near/services", logo: "/images/near.png" },
+  { name: "Harmony", stakeLink: "/harmony/stake", servicesLink: "/harmony/services", logo: "/images/harmony.png" },
+  { name: "Celestia", stakeLink: "/celestia/stake", servicesLink: "/celestia/services", logo: "/images/celestia.png" },
+  { name: "Dymension", stakeLink: "/dymension/stake", servicesLink: "/dymension/services", logo: "/images/dymension.png" },
+  { name: "MultiversX", stakeLink: "/multiversx/stake", servicesLink: "/multiversx/services", logo: "/images/multiversx.png" },
 ];
 
 export default function Home() {
@@ -45,7 +55,20 @@ export default function Home() {
           </Link> a blockchain enthusiast, I have been involved in crypto for 7 years. I am passionate about contributing to projects and running nodes..
         </h2>
       </div>
+      <div className="grid grid-cols-2 gap-8 mt-16">
+        {blockchains.map((blockchain) => (
+          <div key={blockchain.name} className="flex flex-col items-center bg-black p-4 rounded-lg shadow-lg">
+            <img src={blockchain.logo} alt={`${blockchain.name} logo`} className="w-16 h-16 mb-4" />
+            <h3 className="mb-2 text-xl text-white">{blockchain.name}</h3>
+            <Link href={blockchain.stakeLink}>
+              <a className="mb-2 text-sm text-white bg-gray-800 rounded-full px-4 py-2 hover:bg-gray-700">Stake</a>
+            </Link>
+            <Link href={blockchain.servicesLink}>
+              <a className="text-sm text-white bg-gray-800 rounded-full px-4 py-2 hover:bg-gray-700">Services</a>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
-
 }
