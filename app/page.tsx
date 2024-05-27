@@ -57,10 +57,11 @@ export default function Home() {
 <br />
           <div className="flex justify-center items-center mt-4 space-x-4">
             <Link href="https://discord.com/your-discord-link" target="_blank">
-              <img src="/images/discord.png" alt="Discord: Dinhcongtac221" className="w-8 h-8" />
+              <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord: Dinhcongtac221" className="w-8 h-8" />
+Discord : Dinhcongtac221
             </Link>
-            <Link href="https://twitter.com/your-twitter-link" target="_blank">
-              <img src="/images/twitter.png" alt="Twitter" className="w-8 h-8" />
+            <Link href="https://x.com/DinhcongTac221" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" className="w-8 h-8" />
             </Link>
           </div>
         </h2>
